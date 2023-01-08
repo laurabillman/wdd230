@@ -8,14 +8,17 @@ header {
     align-items: center;
     background-color: lightgray;
     margin:1.25rem auto;
-    max-width: 760px;
-    max-height: 150px;
+    width: 760px;
+}
+
+.padded-img {
     padding: 20px;
 }
 
 .photo {
     box-shadow: rgba(0, 0, 0, 0.85) 0px 4px 8px;
 }
+
 h1 {
     text-align: center;
     margin: .1rem auto;
@@ -28,15 +31,22 @@ h2 {
 
 footer {
     margin: 15rem auto;
-    max-width: 760px;
-    max-height: 150px;
+    width: 760px;
+    min-height: 150px;
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
 main {
-    text-align: center;
-    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+#assignment-container {
+    width: 760px;
 }
 
 #copyright {
