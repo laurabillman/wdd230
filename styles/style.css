@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}    
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    margin:1.25rem auto;
+    max-width: 760px;
+    max-height: 150px;
+    padding: 20px;
+}
+
+.photo {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 4px 8px;
+}
+h1 {
+    text-align: center;
+    margin: .1rem auto;
+ }
+
+h2 {
+    text-align: center;
+
+}
+
+footer {
+    margin: 15rem auto;
+    max-width: 760px;
+    max-height: 150px;
+    background-color: lightgray;
+   
+}
+
+main {
+    text-align: center;
+    margin: 10rem auto;
+}
+
+#copyright {
+    text-align: center;
+
+}
