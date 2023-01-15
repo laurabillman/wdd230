@@ -1,3 +1,12 @@
+
+body {
+    background-color: #EAF4F4;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 18px;
     line-height: 1.5;

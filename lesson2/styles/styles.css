@@ -1,0 +1,36 @@
+body {
+    background-color: #EAF4F4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    background-color: white;
+    margin:0 auto;
+    width: 1366px;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-3-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.img-heading {
+    background-color:rgb(96, 187, 194) ;
+    color: white;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
