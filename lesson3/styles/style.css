@@ -44,7 +44,7 @@ nav a {
 
 
 a:hover {
-    background-color: rgb(197, 196, 196);
+    color: rgb(197, 196, 196);
 }
 
 h2 {
@@ -54,9 +54,63 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     overflow-wrap: break-word;
 }
+
+#color-scheme {
+    text-align: center;
+    font-size: 30px
+}
+
+
+
+  .blue1 {
+    background-color: #598392;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .blue2 {
+    background-color: #B1C9CB;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  .tan {
+    background-color: #F1EEDD;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
+
+  .white {
+    background-color: #FFFFFF;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
+
+  .black {
+    background-color: black;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+  }
 
 footer {
     background-color: #598392;
