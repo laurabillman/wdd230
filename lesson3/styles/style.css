@@ -53,7 +53,7 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     overflow-wrap: break-word;
     margin: 0;
 }
@@ -67,22 +67,60 @@ h3 {
     font-family: Thasadith;
     font-size: 50px;
 }
+
+
 p {
     font-family: Thasadith;
     color: white;
     font-size: 23px
 }
 
-.purpose {
+.purpose p {
     text-align: center;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    color: black;
 
 }
 
-p1 {
-    font-family: Thasadith;
-    text-align: center;
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.main-grid img {
+    margin: 30px;
+    margin-left: auto;
+
+}
+
+.main-grid p {
     color: black;
-    font-size: 35px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 800px;
+    margin-top: 100px;
+    
+} 
+
+.scenerios div {
+   display: flex;
+   justify-content: center;
+}
+
+.audience p  {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.scenerios  {
+    font-size: 25px;
+    text-align: left;
 }
 
 #color-scheme {
@@ -97,7 +135,7 @@ p1 {
    
 }
     
-  .blue1 {
+.blue1 {
     background-color: #598392;
     height:65px;
     width: 175px;
@@ -107,7 +145,7 @@ p1 {
     margin: auto;
   }
   
-  .blue2 {
+.blue2 {
     background-color: #B1C9CB;
     height:65px;
     width: 175px;
@@ -116,7 +154,7 @@ p1 {
     margin: auto;
   }
   
-  .tan {
+.tan {
     background-color: #F1EEDD;
     height:65px;
     width: 175px;
@@ -125,7 +163,7 @@ p1 {
     margin: auto;
   }
 
-  .white {
+.white {
     background-color: #FFFFFF;
     height:65px;
     width: 175px;
@@ -134,7 +172,7 @@ p1 {
     margin: auto;
   }
 
-  .black {
+.black {
     background-color: black;
     height:65px;
     width: 175px;
@@ -143,6 +181,8 @@ p1 {
     border: 1px solid black;
     margin: auto;
   }
+
+
 
 footer {
     background-color: #598392;
