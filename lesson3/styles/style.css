@@ -25,22 +25,32 @@ nav {
     background-color: #598392;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5px;
     font-family: Thasadith;
     font-size: 30px;
     align-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 30px;
     color: white;
+    padding: 30px
 }
 
-
+#link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+}
+@media only screen and (max-width: 650px) {
+	#link-container {
+		flex-direction: column;
+        align-items: center;
+	}
+}
 a:hover {
     color: rgb(197, 196, 196);
 }
@@ -192,7 +202,5 @@ footer {
     padding: 5px;
     font-size: 20px;
     align-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
     margin-top: 30px;
 }
