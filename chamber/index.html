@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <title>Syracuse Chamber of Commerce Home Page</title>
-    <link rel="stylesheet" href="styles/style.css"> 
-    <link rel="css-file" href="wwd230/index/normalize.css">
+    <!-- phone-default -->
+    <link href= "css/small.css" rel="stylesheet">
+    <!-- enhance tablet-->
+    <link href= "css/medium.css" rel="stylesheet">
+    <!-- enhance desktop -->
+    <link href= "css/large.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -17,9 +22,9 @@
         <h1>Syracuse Chamber of Commerce</h1>
         <nav>
         <button>&#9776;</button>
-            <ul>
+            <ul> class="naviagation responsive.">
                 <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Join</li>
+                <li> class="active"<a href="#"></a>Join</li>
                 <li><a href="#"></a>Weather</li>
                 <li><a href="#"></a>Contact</li>
             </ul>
