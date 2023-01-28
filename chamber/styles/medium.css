@@ -11,7 +11,9 @@
         justify-content: center;
 
     }
-
+    h1 {
+       
+    }
     
     header .top {
         text-align: center;
@@ -64,7 +66,7 @@
 
     img.logo {
         padding: 20px;
-        width: 305px;
+        height: 150px;
     }
 
     .social img {

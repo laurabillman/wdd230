@@ -73,12 +73,9 @@
 
     }
 
-    #primaryNav {
-        display: flex-end;
-      
-    }
 
-    nav ul {
+    
+    nav ul {    
         display: flex;
         margin-right: 2vw;
         list-style-type: none;
@@ -264,7 +261,6 @@
         text-align: center;
         border-top: 1px solid rgba(70, 69, 69, 0.5);
         margin: 10px;
-
     }
 
     
