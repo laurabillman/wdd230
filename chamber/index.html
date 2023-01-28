@@ -1,51 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="description"
+        content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <title>Syracuse Chamber of Commerce Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Thasadith&display=swap"
+        rel="stylesheet">
     <!-- phone-default -->
-    <link href= "css/small.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
     <!-- enhance tablet-->
-    <link href= "css/medium.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance desktop -->
-    <link href= "css/large.css" rel="stylesheet">
-    
+    <link href="styles/large.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <a id="logo_link" href="index.html">
+        <section class="flex-row align-items-center">
             <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
-        </a>
-        <h1>Syracuse Chamber of Commerce</h1>
-        <nav>
-        <button>&#9776;</button>
-            <ul> class="naviagation responsive.">
-                <li><a href="#"></a>Home</li>
-                <li> class="active"<a href="#"></a>Join</li>
-                <li><a href="#"></a>Weather</li>
-                <li><a href="#"></a>Contact</li>
-            </ul>
-            <div class="social">
+            <h1 id="header">Syracuse Chamber of Commerce</h1>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="socoal">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
-            </div>
-        </nav> 
+            </section>
+        </section>
+        <section class="currentDate">
+            <h2 class="top">Current Date: <span id="currentdate"></span></h2>
+        </section>
     </header>
     <main>
-
-
+        <div class="hero">
+            <div class="container1">
+                <p>Hero with Site name and call to action</p>
+            </div>
+            <div class="container2">
+                <p>Events</p>
+            </div>
+            <div class="container3">
+                <p>Weather</p>
+            </div>
+            <div class="container4">
+                <p>News Release</p>
+            </div>
+            <div class="container5">
+                <p>Spotlight 1</p>
+            </div>
+            <div class="container6">
+                <p>Spotlight 2</p>
+            </div>
+            <div class="container7">
+                <p>Join</p>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div><img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce"></div>
+        <div class="companyInfo">Syracuse Chamber of Commerce</div>
+        <div class="companyInfo">1800 West 1900 South</div>
+        <div class="companyInfo">Syracuse, UT 84075</div>
+        <div class="info">info@syracusechamber.org</div>
+        <div class="info">(385) 870-2020</div>
+        <a href="https://goo.gl/maps/Pd1bLQgCQhqSAfzT7"></a>
+        <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
+        <p>Last Modified: 1/27/2023</p>
     </footer>
 
-    
+    <script>
+        // toLocalDateString
+        const options = { weekday: "long", day: "numeric", month: "long", year: "numeric" };
+        document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
+    </script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
