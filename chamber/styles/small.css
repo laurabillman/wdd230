@@ -235,17 +235,19 @@
 
     footer .companyInfo {
         font-family: Thasadith;
-        text-align: left;
+        text-align: center;
     
     }
 
     footer .companyName {
+        text-align: center;
         font-family: Caladea;
-        text-align: left;
+    
     
     }
 
     footer {
+        text-align: center;
         padding: 15px;
         margin-top: 20px;
         background-color: #598392;
@@ -263,8 +265,9 @@
     }
 
     footer .info {
+        margin: 5px;
         font-family: Thasadith;
-        text-align: right;
+        text-align: center;
     }
 
     footer p {
