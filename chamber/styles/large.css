@@ -240,6 +240,12 @@
         text-align: left;
     }
 
+    footer .companyName {
+        font-family: Caladea;
+        text-align: left;
+    
+    }
+
     footer .info {
         font-family: Thasadith;
         text-align: right;
