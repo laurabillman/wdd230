@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
     <title>Syracuse Chamber of Commerce Home Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Thasadith&display=swap"
         rel="stylesheet">
@@ -20,35 +21,40 @@
 
 <body>
     <header>
-        <section class="flex-row align-items-center">
+        <section id="header-top">
             <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
-            <h1 id="header">Syracuse Chamber of Commerce</h1>
-            <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-                <ul id="primaryNav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <section class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-            </section>
+            <h1>Syracuse Chamber of Commerce</h1>
         </section>
-        <section class="currentDate">
-            <h2 class="top">Current Date: <span id="currentdate"></span></h2>
+        <section id="header-bottom">
+            <div class="date">
+                <h2>Current Date: <span id="currentdate"></span></h2>
+            </div>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">DIRECTORY</a></li>
+                    <li><a href="#">JOIN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter icon">
+                    </a>
+                </div>
+            </nav>
         </section>
     </header>
-    <main>
-        <div class="hero">
+    <main class="main">
+        <h2></h2>
+        <div class="main-grid">
             <div class="container1">
-                <p>Hero with Site name and call to action</p>
+                <p>SYRACUSE CITY CHAMBER</p>
+                <img class="hero-img" src="images/hero.png"
+                    alt="Picture of Syracuse City street with business buildings">
             </div>
             <div class="container2">
                 <p>Events</p>
@@ -77,9 +83,9 @@
         <div class="companyInfo">Syracuse, UT 84075</div>
         <div class="info">info@syracusechamber.org</div>
         <div class="info">(385) 870-2020</div>
-        <a href="https://goo.gl/maps/Pd1bLQgCQhqSAfzT7"></a>
+        <a href="https://goo.gl/maps/u4k7TuXapgP4MkJf9"></a>
         <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
-        <p>Last Modified: 1/27/2023</p>
+        <p>Last Modified: 1/31/2023</p>
     </footer>
 
     <script>
