@@ -1,17 +1,18 @@
-@media only screen and (min-width: 750px) and (max-width: 1024px) {
-    
+@media only screen and (min-width: 750px) and (max-width: 1075px) {
+
     body {
-      
+
         padding: 20px;
         background-color: white;
     }
+
     header {
         height: 250px;
-        background-color:  #404a5e;
-       
+        background-color: #404a5e;
+
     }
 
-    
+
     img .logo {
         margin-top: 8px;
         margin-right: 50px;
@@ -20,57 +21,59 @@
     }
 
     h1 {
-    display: flex;
-    margin-right: 250px;
-       margin-top: 15px;
-       font-size: 40px;
-       color: white;
+        display: flex;
+        margin-right: 250px;
+        margin-top: 15px;
+        font-size: 40px;
+        color: white;
     }
 
-    
+
     #header-top {
         display: flex;
-        
-        
+
+
     }
 
     .date h2 {
         color: white;
-        padding: 10px;
-       
-        font-weight: bold;
-        font-size: 20px;
+
+
+
+        font-size: 15px;
         font-family: Thasadith;
-        
-        margin-left: 10px;
+        margin-top: 0px;
+        margin-left: 20px;
+
     }
-   
+
     #header-bottom {
-        display:flex;
+        display: flex;
         justify-content: space-between;
-        
+
     }
 
     nav .hamburgerBtn {
-        margin-bottom: 
-    }
-    nav {
-       display: flex;
-       
-         
+        margin-bottom:
     }
 
-    nav ul {  
+    nav {
+        display: flex;
+
+
+    }
+
+    nav ul {
         display: flex;
         display: none;
         list-style-type: none;
         margin-bottom: 40px;
-       
+
     }
 
 
-    
-    
+
+
 
     .logo {
         padding: 10px;
@@ -82,7 +85,7 @@
         padding: 20px;
         height: 150px;
     }
-    
+
 
     .headings {
         display: flex;
@@ -94,7 +97,7 @@
     }
 
     .social {
-        display:flex;
+        display: flex;
         align-items: center;
         margin-right: 20px;
     }
@@ -104,13 +107,13 @@
     }
 
     .social img {
-        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         background-color: white;
         width: 35px;
     }
 
     .social a:hover {
-        
+
         border: 1.5px solid #F1EEDD;
     }
 
@@ -124,28 +127,29 @@
         text-decoration: none;
         border-bottom: 1px solid rgba(233, 229, 229, 0.5);
         color: white;
-    }   
+    }
 
     nav ul li.active a {
-        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         color: white;
         background-color: #df9425;
     }
+
     nav ul li a:hover {
         color: white;
         background-color: rgba(161, 200, 216, 0.3);
     }
 
 
-    
-    
-   
+
+
+
     nav ul.open {
         display: block;
     }
-    
+
     nav button {
-        
+
         background-color: transparent;
         border: none;
         font-size: 2rem;
@@ -174,32 +178,41 @@
         display: block;
     }
 
-    
-    
+    h2 {
+
+        font-family: Thasadith;
+        font-size: 20px;
+        color: #e08c0d;
+        text-align: center;
+        margin-top: 10px;
+
+        height: 60px
+    }
+
     .hero {
         font-family: Thasadith;
         font-weight: bolder;
         display: grid;
-        grid-template-columns: 1fr, 1fr;
-        grid-auto-rows: 300px 300px 300px;
+        grid-template-columns: 1fr, 3fr 1fr;
+        grid-template-rows: 300px 300px;
         gap: 20px;
         margin: 15px;
     }
-   
-    
-    .container1  {
-        grid-column: 1/3;
+
+
+    .container1 {
+        grid-column: 2/3;
         grid-row: 1/2;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-        
-       
+        background-color: white;
+
+
 
     }
-    
+
     .container2 {
         grid-column: 1/3;
         grid-row: 2/3;
@@ -207,136 +220,136 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-        
-     
-       
+        background-color: white;
+
+
+
 
     }
-    
-    .container3  {
+
+    .container3 {
         grid-column: 1/2;
         grid-row: 3/4;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-    
+        background-color: white;
+
 
     }
-    
-    .container4  {
+
+    .container4 {
         grid-column: 2/3;
         grid-row: 3/4;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-       
+        background-color: white;
+
 
     }
-    
-    .container5  {
+
+    .container5 {
         grid-column: 3/4;
         grid-row: 1/2;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-      
+        background-color: white;
+
 
     }
-    
-    .container6  {
+
+    .container6 {
         grid-column: 3/4;
         grid-row: 2/3;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-      
+        background-color: white;
+
 
     }
 
-    .container7  {
+    .container7 {
         grid-column: 3/4;
         grid-row: 3/4;
         border: 6px solid #B1C9CB;
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: white; 
-      
+        background-color: white;
+
 
     }
 
     footer #logo img {
         text-align: left;
-    } 
+    }
 
     footer .companyInfo {
         font-family: Thasadith;
         text-align: left;
-    
+
     }
 
     footer .companyName {
         font-family: Caladea;
         text-align: left;
-    
+
     }
 
     footer {
         padding: 15px;
         margin-top: 20px;
-        background-color: #598392;
-        font-size: 1.5em;
+        background-color: #404a5e;
+        font-size: 1em;
         color: white;
         margin: 10;
     }
 
-#logo {
-    height: 100px;
+    #logo {
+        height: 100px;
 
 
-}
+    }
 
-.companyInfo {
-    font-family: Thasadith;
-    text-align: left;
-}
+    .companyInfo {
+        font-family: Thasadith;
+        text-align: left;
+    }
 
-footer .companyName {
-    font-family: Caladea;
-    text-align: left;
+    footer .companyName {
+        font-family: Caladea;
+        text-align: left;
 
-}
+    }
 
-footer .info {
-    font-family: Thasadith;
-    text-align: right;
-    font-style: italic;
-    margin-bottom: 10px;
-}   
+    footer .info {
+        font-family: Thasadith;
+        text-align: right;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
 
-footer p {
-    margin-top: 10px;
-    text-align: center;
-}
+    footer p {
+        margin-top: 10px;
+        text-align: center;
+    }
 
 
 
-footer .bottom {
-    font-family: Thasadith;
-    text-align: center;
-    border-top: 1px solid rgba(219, 218, 218, 0.5);
-    padding: 10px;
-    
-}
+    footer .bottom {
+        font-family: Thasadith;
+        text-align: center;
+        border-top: 1px solid rgba(228, 224, 224, 0.5);
+        padding: 10px;
+
+    }
 
     #logo {
         height: 75px;

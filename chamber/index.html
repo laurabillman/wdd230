@@ -20,6 +20,9 @@
 </head>
 
 <body>
+    <div id="banner">
+        <span id="message"></span>
+    </div>
     <header>
         <section id="header-top">
             <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
@@ -48,44 +51,91 @@
             </nav>
         </section>
     </header>
-    <main class="main">
-        <h2></h2>
+    <main>
         <div class="main-grid">
-            <div class="container1">
-                <p>SYRACUSE CITY CHAMBER</p>
-                <img class="hero-img" src="images/hero.png"
-                    alt="Picture of Syracuse City street with business buildings">
+            <div class="hero-box">
+                <!-- <div class="hero-bg-img" role="img" aria-label="Picture of Syracuse City main square with business buildings">
+                    <p>WELCOME TO SYRACUSE</p>
+                </div> -->
+                <img class="hero-img" src="images/hero3.png"
+                    alt="Picture of Syracuse City main square with business buildings">
+                <p>Welcome to Syracuse</p>
+                <div id="join"><a href="#">Join Chamber</a></div>
             </div>
-            <div class="container2">
-                <p>Events</p>
+            <section class="events-box">
+                <div class="company-name">
+                    <p>🍦 Sweet Creamery Ice Cream 50th Anniversary!</p>
+                </div>
+                <div id="company-event">
+                    <p>Celebrating 50 years of business! Come enjoy a free scoop on us!</p>
+
+                    <div id="event-date">
+                        <p>Saturday, March 4</p>
+                    </div>
+                </div>
+            </section>
+            <section class="weather-box">
+                <div id="weather">
+                    <p>Weather</p>
+                    <img id="image" src="images/weather.png" alt="picture of current Syracuse weather forecast">
+                </div>
+            </section>
+            <section class="news-box">
+                <div class="news-header">
+                    <p>News Release</p>
+                </div>
+                <div id="news-info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+            </section>
+            <div class="spotlight1-box">
+                <div>
+                    <img id="ad" src="images/tmobile.png" alt="picture of T-mobile logo">
+                    <div class="slogan">Outstanding wireless experiences</div>
+                    <div>866.984.6607</div>
+                </div>
             </div>
-            <div class="container3">
-                <p>Weather</p>
+            <div class="spotlight2-box">
+                <div>
+                    <img id="ad" src="images/tanner-clinic.png" alt="picture of Tanner Clinic logo">
+                    <div class="slogan">Where the patient is everything</div>
+                    <div>801.773.4840</div>
+                </div>
             </div>
-            <div class="container4">
-                <p>News Release</p>
+            <div class="join-box">
+                <div id="join-info">
+                    <p>Discover how to join the chamber of commerce and how it will benefit your company!</p>
+                    <div id="join2"><a href="#">Join Us</a></div>
+                </div>
             </div>
-            <div class="container5">
-                <p>Spotlight 1</p>
-            </div>
-            <div class="container6">
-                <p>Spotlight 2</p>
-            </div>
-            <div class="container7">
-                <p>Join</p>
-            </div>
+        </div>
         </div>
     </main>
     <footer>
-        <div><img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce"></div>
-        <div class="companyName">Syracuse Chamber of Commerce</div>
-        <div class="companyInfo">1800 West 1900 South</div>
-        <div class="companyInfo">Syracuse, UT 84075</div>
-        <div class="info">info@syracusechamber.org</div>
-        <div class="info">(385) 870-2020</div>
-        <a href="https://goo.gl/maps/u4k7TuXapgP4MkJf9"></a>
-        <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
-        <p>Last Modified: 1/31/2023</p>
+        <section id="footer-top">
+            <div>
+                <div id="footer-logo">
+                    <img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+                    <div class="companyName">
+                        <div>Syracuse Chamber of Commerce</div>
+                        <div class="companyInfo">1800 West 1900 South</div>
+                <div class="companyInfo">Syracuse, UT 84075</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a id="location-map" href="https://goo.gl/maps/u4k7TuXapgP4MkJf9" target="_blank">Location Map 📍</a>
+                <div class="info">info@syracusechamber.org</div>
+                <div class="info">(385) 870-2020</div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
+            <p>Last Modified: 2/3/2023</p>
+        </section>
     </footer>
 
     <script>
