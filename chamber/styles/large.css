@@ -347,6 +347,7 @@
     .join-box p {
         font-family: Caladea;
         font-size: 20px;
+        font-weight: bold;
     }
 
     #join2 {
@@ -365,7 +366,7 @@
         font-family: Thasadith;
         text-decoration: none;
         color: black;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
     }
 
@@ -377,6 +378,8 @@
 
     #join-info p {
         padding: 0 10px 0 10px;
+        font-weight: bold;
+        font-size: 18px;
     }
 
     footer {
