@@ -7,7 +7,7 @@
     }
 
     header {
-        height: 195px;
+        min-height: 195px;
         background-color: #404a5e;
 
     }
@@ -20,8 +20,7 @@
     }
 
     h1 {
-
-        position: relevant;
+        min-width: 355px;
         font-size: 40px;
         color: white;
     }
@@ -102,8 +101,8 @@
 
     .social {
         display: flex;
-        align-items: center;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .social a {
@@ -123,7 +122,7 @@
 
     #message {
         font-family: Thasadith;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         color: #404a5e;
         text-align: center;
@@ -143,7 +142,7 @@
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 220px 220px 220px;
         gap: 10px;
-        margin: 40px;
+        margin: 30px;
 
     }
 
@@ -154,7 +153,7 @@
         font-weight: bolder;
         margin: 0;
         position: absolute;
-        top: 10px;
+        top: 40px;
         width: 100%;
     }
 
@@ -196,14 +195,14 @@
 
     }
 
-    .hero-bg-img {
+    /*.hero-bg-img {
         background-color: white;
         background-image: url("../images/hero3.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
-    }
+    }*/
 
     .events-box {
         grid-column: 1/2;
@@ -211,7 +210,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
         padding: 10px;
         display: grid;
 
@@ -248,7 +247,7 @@
         font-family: Thasadith;
         font-weight: bold;
         color: blue;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
 
 
 
@@ -270,7 +269,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
 
 
 
@@ -285,20 +284,19 @@
     }
 
     #news-info p {
-        font-size: 20px;
+        font-size: 18px;
         color: black;
         font-family: Thasadith;
-        padding: 218px;
+        padding: 18px;
         font-weight: bold;
         padding: 0 10px 0 10px
-    
     }
 
-    .spotlight-container {}
+    /*.spotlight-container {}
 
     .spotlight-container {
         height: 70%;
-    }
+    }*/
 
     .height-30-percent .flex-column-align-items-center {
         height: 30%;
@@ -322,7 +320,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
         height: 100%;
         display: grid;
         align-items: center;
@@ -334,7 +332,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
         display: grid;
         align-items: center;
     }
@@ -345,7 +343,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(236, 232, 232);
+        background-color: rgb(250, 245, 245);
         display: grid;
         align-items: center;
     }
@@ -391,7 +389,7 @@
 
     footer {
         padding: 20px;
-        margin-top: 0px;
+
         background-color: #404a5e;
         font-size: 20px;
         color: white;
@@ -412,8 +410,8 @@
     footer .companyName {
         font-family: Caladea;
         text-align: left;
-        margin-left:20px;
-        margin-top:10px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 
     footer .info {
@@ -448,7 +446,9 @@
     }
 
     #location-map {
-        color:white;
+        text-align: right;
+        display: block;
+        color: white;
         text-decoration: none;
     }
 }

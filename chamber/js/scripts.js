@@ -1,9 +1,9 @@
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open")
-    document.getElementById("hamburgerBtn").classList.toggle("open")
+    document.getElementById("primary-nav").classList.toggle("open")
+    document.getElementById("hamburger-btn").classList.toggle("open")
 }
 
-const x = document.getElementById("hamburgerBtn");
+const x = document.getElementById("hamburger-btn");
 x.onclick = toggleMenu;
 
 
@@ -31,7 +31,7 @@ weekday[6] = "Saturday";
 let day = weekday[now.getDay()];
 console.log(day);
 
-if (day == "Friday") {
+if (day == "Monday") {
     let message = ("Come join us for the Chamber meet and greet Wednesday at 7:00p.m.");
     console.log(message);
     document.getElementById("message").textContent = message;  
