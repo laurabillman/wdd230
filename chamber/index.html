@@ -58,8 +58,14 @@
                 <!-- <div class="hero-bg-img" role="img" aria-label="Picture of Syracuse City main square with business buildings">
                     <p>WELCOME TO SYRACUSE</p>
                 </div> -->
-                <img class="hero-img" src="images/hero3.png"
-                    alt="Picture of Syracuse City main square with business buildings">
+               <!--  <img class="hero-img" src="images/hero3.png"
+                    alt="Picture of Syracuse City main square with business buildings"> -->
+                <picture class="hero-img">
+                    <source media="(min-width:750px) and (max-width: 1074px)" srcset="images/new-hero-medium.jpg">
+                    <source media="(min-width:1075px)" srcset="images/new-hero-large.jpg">
+                    <img src="images/new-hero-small.jpg"
+                        alt="Picture of Syracuse City main square with business buildings">
+                </picture>
                 <p>Welcome to Syracuse</p>
                 <div id="join"><a href="#">Join Chamber</a></div>
             </div>
@@ -76,10 +82,11 @@
                 </div>
             </section>
             <section class="weather-box">
-                <div id="weather">
-                    <p>Weather</p>
-                    <img id="image" src="images/weather.png" alt="picture of current Syracuse weather forecast">
-                </div>
+                <p>WEATHER
+                <p>Temperature: <span class="unit" id="temperature">40</span><span class="unit">°F</span></p>
+                <p>Wind Speed: <span class="unit" id="windSpeed">10</span><span class="unit">mph</span></p>
+                <p>Current Wind Chill: <span class="unit" id="windChill"></span><span class="unit">°F</span></p>
+                </p>
             </section>
             <section class="news-box">
                 <div class="news-header">
