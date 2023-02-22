@@ -5,8 +5,8 @@
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsl(0,0%,20%);
 	--borderlight: hsl(0,0%,33%);
-	--shadow: hsl(0,0%,50%);
-	--zebra: hsl(180, 2%, 80%);
+	--shadow: hsl(0, 2%, 75%);
+	--zebra: hsl(180, 6%, 93%);
 }
 
 
@@ -14,41 +14,72 @@
 
 
 table {
-  border: none;
+    margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 7px var(--shadow);
+	border-collapse: collapse;
+    height: 20vh;
+    width: 40vw;
+
   
 }
 
 body {
-   font-family: Thasadith;
-   height: 100vh;
-	align-items: center;
+    font-family: Thasadith;
+    align-items: center;
 	justify-content: center;
     font-weight: bold;
 	
 }
 td {
     font-family: Thasadith;
+    text-align: center;
+    font-weight: bold;
 }
 
 tr {
     font-family: Thasadith;
 }
-th {
-    background-color: rgb(109, 61, 110);
+tbody th  {
+    background-color: rgb(107, 107, 107);
     color: white;
-    border: none;
-    padding: 10px;
+    padding: 5px;
     font-family: Thasadith;
+    font-size: 20px;
+    text-align: center;
+    height: 45px;
+    margin-top: 0px;
+    border-right: 1px;
+    
+}
+    
+th:nth-child(1) {
+    background-color: rgb(109, 61, 110);
 }
 
-thead th {
-    height: 50px;
+thead  {
+    background-color: rgb(109, 61, 110); 
+    height: 60px;
+    font-size: 25px;
     border: none;
     margin: 0px;
     font-family: Caladea;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px rgb(109, 61, 110); 
 }
 
+thead th {
+    font-family: Caladea;
+}
 tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
 }
 
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
