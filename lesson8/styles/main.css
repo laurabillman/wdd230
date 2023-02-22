@@ -1,0 +1,54 @@
+:root {
+	--back: hsla(0, 0%, 3%, 0.5);
+  --back2: hsla(0, 0%, 3%, 0.5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(180, 2%, 80%);
+}
+
+
+
+
+
+table {
+  border: none;
+  
+}
+
+body {
+   font-family: Thasadith;
+   height: 100vh;
+	align-items: center;
+	justify-content: center;
+    font-weight: bold;
+	
+}
+td {
+    font-family: Thasadith;
+}
+
+tr {
+    font-family: Thasadith;
+}
+th {
+    background-color: rgb(109, 61, 110);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-family: Thasadith;
+}
+
+thead th {
+    height: 50px;
+    border: none;
+    margin: 0px;
+    font-family: Caladea;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
