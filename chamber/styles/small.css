@@ -137,7 +137,7 @@
         margin-top: 20px;
     }
 
-    .social a:hover {
+    .social a img:hover {
 
         border: 1.5px solid #F1EEDD;
     }
@@ -641,7 +641,6 @@
 
     tbody th {
         background-color: #F1EEDD;
-        ;
         color: black;
         padding: 5px;
         font-family: Thasadith;

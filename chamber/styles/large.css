@@ -116,7 +116,7 @@
         width: 35px;
     }
 
-    .social a:hover {
+    .social a img:hover {
 
         border: 1.5px solid #F1EEDD;
     }
