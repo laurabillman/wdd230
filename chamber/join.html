@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Syracuse Chamber of Commerce Join Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Thasadith&display=swap"
+        rel="stylesheet">
+    <!-- phone-default -->
+    <link href="styles/small.css" rel="stylesheet">
+    <!-- enhance tablet-->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- enhance desktop -->
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner">
+        <span id="message"></span>
+    </div>
+    <header>
+        <section id="header-top">
+            <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+            <h1>Syracuse Chamber of Commerce</h1>
+            <div style="width: 100%;"></div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+            </div>
+        </section>
+        <section id="header-bottom">
+            <div class="date">
+                <h2>Current Date: <span id="currentdate"></span></h2>
+            </div>
+            <nav>
+                <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primary-nav">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="discover.html">DISCOVER</a></li>
+                    <li><a href="#">DIRECTORY</a></li>
+                    <li><a href="join.html">JOIN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="main-join-grid">
+
+        <div>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Chamber Applicant Form</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Business Position<input type="text" pattern="[a-zA-Z - \s] {7,}"
+                            placeholder=""></label>
+                    <label class="top">Cell Phone Number*<input type="tel" name="phone" required
+                            placeholder="6784441234"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="johndoe@gmail.com"
+                            required></label>
+                    <label class="top">Business Name/Title*<input type="text" name="fname" required></label>
+                    <label class="top">Membership Level
+                        <select name="Membership Level">
+                            <option value="">Please Select...</option>
+                            <option value="NP Membership">NP (Non Profit) Membership</option>
+                            <option value="Bronze Membership">Bronze Membership</option>
+                            <option value="Silver Membership">Silver Membership</option>
+                            <option value="Gold Membership">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label id="business-description" class="top">Business Description</label>
+                    <textarea placeholder="Briefly describe your business" rows="8" cols="45"></textarea>
+
+                </fieldset>
+
+                <input type="submit" value="Join Chamber" class="submitBtn">
+                <input id="form-submit" type="hidden" name="Language" id="hiddenDate">
+
+
+            </form>
+        </div>
+        <table BORDER="2">
+            <caption id="comparison-text">Table 1: Membership Level Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">MEMBERSHIP BENEFITS</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope=""></th>
+                    <th scope="col">Non Profit Organizations<br> ($0)</th>
+                    <th scope="col">Bronze $500</th>
+                    <th scope="col">Silver $1000</th>
+                    <th scope="col">Gold $1500</th>
+                </tr>
+                <tr>
+                    <td>Member Spotlight featured on Chamber website</td>
+                    <td>✔️ </td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Free Trainings</td>
+                    <td>✔️ </td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Local Business Discounts</td>
+                    <td>✖️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Event Discounts</td>
+                    <td>✖️</td>
+                    <td>✖️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Company Advertised monthly in Utah's Hometown Values Magazine</td>
+                    <td>✖️</td>
+                    <td>✖️</td>
+                    <td>✖️</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <section id="footer-top">
+            <div>
+                <div id="footer-logo">
+                    <img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+                    <div class="companyName">
+                        <div>Syracuse Chamber of Commerce</div>
+                        <div class="companyInfo">1800 West 1900 South</div>
+                        <div class="companyInfo">Syracuse, UT 84075</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a id="location-map" href="https://goo.gl/maps/u4k7TuXapgP4MkJf9" target="_blank">📍 Location Map</a>
+                <div class="info">info@syracusechamber.org</div>
+                <div class="info">(385) 870-2020</div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
+            <p>Last Modified: 2/23/2023</p>
+        </section>
+    </footer>
+
+    <script>
+        // toLocalDateString
+        const options = { weekday: "long", day: "numeric", month: "long", year: "numeric" };
+        document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
+    </script>
+    <script src="js/join.js"></script>
+</body>
+
+</html>

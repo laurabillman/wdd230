@@ -23,6 +23,7 @@
         display: flex;
         font-size: 25px;
         color: white;
+        font-family: Caladea;
     }
 
     #header-top {
@@ -168,6 +169,8 @@
         padding: 5px;
         background-color: #F1EEDD;
     }
+
+    
 
     h3 {
         color: #404a5e;
@@ -442,11 +445,244 @@
         font-size: 18px;
     }
 
+    /*------- Join Page ---------*/
+
+     #join-page-title {
+        color: #404a5e;
+        font-family: Thasadith;
+        font-size: 40px;
+    }
+
+    #thanks-page-message {
+        color: black;
+        font-size: 30px;
+        font-family: Caladea;
+        height:650px;
+        
+    }
+
+
+
+
+
+
+    /*--------------- FORM & TABLE ----------------*/
+
+    
+    #main-join-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    h1 #join-page-title {
+        color: #404a5e;
+        font-size: 20px;
+    }
+
+  
+    form  {
+        margin-top: 20px;;
+        margin-bottom: 15px;
+        width: 23rem;
+        
+        
+        border-radius: 5px;
+        padding: .5rem 2%;
+    
+        display:table;
+        margin:auto;
+        
+        
+       
+    }
+
+    legend {
+        margin-top: 5px;
+        color: #404a5e;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+
+    form label {
+        background-color: white;
+       
+    }
+
+    form label.top {
+        display: block;
+        padding-top: 1rem;
+        color: #404a5e;
+        font-size: .8rem;
+        font-family: Thasadith;
+        font-weight: bolder;
+       
+    }
+
+    form label.top input, form label.top select {
+        display: block;
+        font: 1rem;
+        border: solid 1px #000000;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(255, 254, 254, 0.1);
+
+    }
+
+    option {
+        font-family: Thasadith;
+        font-weight: bolder;
+    }   
+
+    form input.submitBtn {
+        border: none;
+        background-color: #404a5e;
+        color: white;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+        padding: 5px;
+        height: 50px;
+        margin-top: 10px;
+        width: 25rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+    }
+
+   form input:hover {
+        background-color: rgba(8, 9, 10, 0.3);
+    }
+
+    form label.top input:required {
+        border-left: red solid 6px;
+    }
+
+    form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+
+    #business-description textarea {
+        height: 75px;
+        font-family: Thasadith;
+
+    }
+    
+    textarea placeholder {
+        font-family: Thasadith;
+    }
+   
+    /*---------TABLE----------*/
+    :root {
+        --back: hsla(0, 0%, 3%, 0.5);
+      --back2: hsla(0, 0%, 3%, 0.5);
+      --foredark: hsla(0,0%,10%,1);
+        --forelight: hsla(0,0%,100%,1);
+        --border: hsl(0,0%,20%);
+        --borderlight: hsl(0,0%,33%);
+        --shadow: hsl(0, 2%, 75%);
+        --zebra: hsl(180, 6%, 93%);
+    }
+    
+    
+    
+    
+    
+    table {
+       
+        margin: 40px auto;
+        color: black;
+        box-shadow: 0 0 7px var(--shadow);
+        border-collapse: collapse;
+        height: 20vh;
+        width: 40vw;
+        
+    
+      
+    }
+    
+    tbody {
+        font-family: Thasadith;
+        display:table-cell;
+        vertical-align:middle;
+        font-weight: bold;
+        color: black;
+        
+    }
+
+    td {
+        font-family: Thasadith;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 5px;
+        font-weight: bolder;
+    
+    }
+    
+    tr {
+        font-family: Thasadith;
+        border: 1px black;
+    }
+    tbody th  {
+        background-color: #404a5e;
+        color: white;
+        padding: 5px;
+        font-family: Thasadith;
+        font-size: 18px;
+        text-align: center;
+        height: 50px;
+        margin-top: 0px;
+        
+      
+    }
+        
+    th:nth-child(1) {
+        background-color: #404a5e;
+    }
+    
+    thead  {
+        background-color: #404a5e; 
+        height: 65px;
+        font-size: 25px;
+        border: none;
+        margin: 0px;
+        font-family: Caladea;
+        padding: 10px;
+        color: white;
+        border-bottom: 1px rgb(37, 37, 37); 
+    }
+    
+    thead th {
+        font-family: Caladea;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: var(--zebra);
+    }
+    
+    caption {
+        padding: 10px;
+        caption-side: bottom;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+
+
+    /*---------- footer -----------*/
 
     footer #logo img {
         text-align: center;
     }
-
 
     footer .companyName {
         justify-content: center;
