@@ -10,9 +10,9 @@
 
 function dateHidden() {
     let currentDate = new Date();
-    let cDay = currentDate.getDate()
-    let cMonth = currentDate.getMonth() + 1
-    let cYear = currentDate.getFullYear()
+    let cDay = currentDate.getDate();
+    let cMonth = currentDate.getMonth() + 1;
+    let cYear = currentDate.getFullYear();
     console.log(cDay);
     console.log(cMonth);
     console.log(cYear);
@@ -20,10 +20,8 @@ function dateHidden() {
     let time = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
     console.log(time);
 
-    document.getElementbyId("hiddenDate").value = currentDate;
+    document.getElementById("hiddenDate").value = currentDate;
     console.log(currentDate, time); 
-
-    document.getElementById("submit").addEventListener("click", dateHidden);
 }
 
-document.getElementbyId("form-submit").addEventListener("click");
+document.getElementById("submit").addEventListener("click", dateHidden);

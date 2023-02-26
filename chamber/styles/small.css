@@ -170,7 +170,7 @@
         background-color: #F1EEDD;
     }
 
-    
+
 
     h3 {
         color: #404a5e;
@@ -205,6 +205,7 @@
         margin-left: 50px;
         margin-right: 50px;
     }
+
     .main-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -447,7 +448,7 @@
 
     /*------- Join Page ---------*/
 
-     #join-page-title {
+    #join-page-title {
         color: #404a5e;
         font-family: Thasadith;
         font-size: 40px;
@@ -457,8 +458,8 @@
         color: black;
         font-size: 30px;
         font-family: Caladea;
-        height:650px;
-        
+        height: 650px;
+
     }
 
 
@@ -468,10 +469,12 @@
 
     /*--------------- FORM & TABLE ----------------*/
 
-    
-    #main-join-grid {
-        display: grid;
-        grid-template-columns: 1fr;
+
+    #form-table {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
@@ -480,49 +483,51 @@
         font-size: 20px;
     }
 
-  
-    form  {
-        margin-top: 20px;;
+
+    form {
+        margin-top: 20px;
+        ;
         margin-bottom: 15px;
         width: 23rem;
-        
-        
+
+
         border-radius: 5px;
         padding: .5rem 2%;
-    
-        display:table;
-        margin:auto;
-        
-        
-       
+
+        display: table;
+        margin: auto;
+
+
+
     }
 
     legend {
         margin-top: 5px;
-        color: #404a5e;
+        color: black;
         text-align: center;
         padding: 5px;
         font-size: 20px;
         font-weight: bold;
-       
+
     }
 
     form label {
         background-color: white;
-       
+
     }
 
     form label.top {
         display: block;
         padding-top: 1rem;
-        color: #404a5e;
+        color: black;
         font-size: .8rem;
         font-family: Thasadith;
-        font-weight: bolder;
-       
+        font-weight: bold;
+
     }
 
-    form label.top input, form label.top select {
+    form label.top input,
+    form label.top select {
         display: block;
         font: 1rem;
         border: solid 1px #000000;
@@ -537,13 +542,13 @@
 
     option {
         font-family: Thasadith;
-        font-weight: bolder;
-    }   
+        font-weight: bold;
+    }
 
     form input.submitBtn {
         border: none;
-        background-color: #404a5e;
-        color: white;
+        background-color: #F1EEDD;
+        color: black;
         border-radius: 1rem;
         padding: 2rem 3rem;
         padding: 5px;
@@ -555,10 +560,11 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        font-weight: bold;
 
     }
 
-   form input:hover {
+    form input:hover {
         background-color: rgba(8, 9, 10, 0.3);
     }
 
@@ -575,47 +581,47 @@
         font-family: Thasadith;
 
     }
-    
+
     textarea placeholder {
         font-family: Thasadith;
     }
-   
+
     /*---------TABLE----------*/
     :root {
         --back: hsla(0, 0%, 3%, 0.5);
-      --back2: hsla(0, 0%, 3%, 0.5);
-      --foredark: hsla(0,0%,10%,1);
-        --forelight: hsla(0,0%,100%,1);
-        --border: hsl(0,0%,20%);
-        --borderlight: hsl(0,0%,33%);
+        --back2: hsla(0, 0%, 3%, 0.5);
+        --foredark: hsla(0, 0%, 10%, 1);
+        --forelight: hsla(0, 0%, 100%, 1);
+        --border: hsl(0, 0%, 20%);
+        --borderlight: hsl(0, 0%, 33%);
         --shadow: hsl(0, 2%, 75%);
         --zebra: hsl(180, 6%, 93%);
     }
-    
-    
-    
-    
-    
+
+
+
+
+
     table {
-       
-        margin: 40px auto;
+
+        margin: 24px 50px;
         color: black;
         box-shadow: 0 0 7px var(--shadow);
         border-collapse: collapse;
         height: 20vh;
         width: 40vw;
-        
-    
-      
+
+
+
     }
-    
+
     tbody {
         font-family: Thasadith;
-        display:table-cell;
-        vertical-align:middle;
+        display: table-cell;
+        vertical-align: middle;
         font-weight: bold;
         color: black;
-        
+
     }
 
     td {
@@ -625,56 +631,61 @@
         font-size: 18px;
         padding: 5px;
         font-weight: bolder;
-    
+
     }
-    
+
     tr {
         font-family: Thasadith;
         border: 1px black;
     }
-    tbody th  {
-        background-color: #404a5e;
-        color: white;
+
+    tbody th {
+        background-color: #F1EEDD;
+        ;
+        color: black;
         padding: 5px;
         font-family: Thasadith;
         font-size: 18px;
         text-align: center;
         height: 50px;
         margin-top: 0px;
-        
-      
+
+
     }
-        
+
     th:nth-child(1) {
-        background-color: #404a5e;
+        background-color: #F1EEDD;
+        border-collapse: collapse;
     }
-    
-    thead  {
-        background-color: #404a5e; 
+
+    thead {
+        background-color: #F1EEDD;
         height: 65px;
         font-size: 25px;
         border: none;
         margin: 0px;
         font-family: Caladea;
         padding: 10px;
-        color: white;
-        border-bottom: 1px rgb(37, 37, 37); 
+        color: black;
+        border-bottom: 1px #404a5e;
     }
-    
+
     thead th {
         font-family: Caladea;
+
     }
+
     tbody tr:nth-child(odd) {
         background-color: var(--zebra);
     }
-    
+
     caption {
         padding: 10px;
         caption-side: bottom;
         color: black;
         font-size: 20px;
         font-weight: bold;
-      }
+    }
 
 
 
@@ -746,5 +757,17 @@
         filter: blur(0em);
         transition: filter 1s;
         max-width: 200px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    .table-header {
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-top: 2px solid black;
     }
 }
