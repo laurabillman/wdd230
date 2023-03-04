@@ -129,6 +129,8 @@
     header .social img {
         padding: 5px;
         width: 35px;
+       
+        border: 1.5px solid #404a5e;
     }
 
     .social {
@@ -138,8 +140,8 @@
     }
 
     .social a img:hover {
-
-        border: 1.5px solid #F1EEDD;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        border: 1.5px solid #404a5e;
     }
 
     h2 {
