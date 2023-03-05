@@ -129,7 +129,7 @@
     header .social img {
         padding: 5px;
         width: 35px;
-       
+
         border: 1.5px solid #404a5e;
     }
 
@@ -152,7 +152,6 @@
         text-align: center;
         padding: 2px;
         background-color: #404a5e;
-        height: 23px
     }
 
     #message {
@@ -206,6 +205,39 @@
         margin-top: 0px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        gap: 10px;
+        padding: 30px;
+
+    }
+
+    .cards section {
+        background-color: white;
+        padding: 30px;
+        border: 1px solid #bbb;
+        justify-content: center;
+        align-items: center;
+        max-width: 340px;
+        display: grid;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .cards h2 {
+        background-color: transparent;
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .cards p {
+        font-family: Thasadith;
+        font-weight: bold;
     }
 
     .main-grid {
