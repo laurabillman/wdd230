@@ -1,0 +1,49 @@
+
+
+
+
+
+h1 {
+    font-family: Caladea;
+    font-weight: bolder;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    color: rgb(89, 203, 231);
+    margin-left: 30px;
+    margin-top: 50px;
+
+
+}
+
+#current-temp {
+    font-family: Caladea;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
+
+}
+
+main p {
+    font-family: Thasadith;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+   
+}
+
+h2 {
+   margin-top: 40px;
+   margin-left: 30px;
+}
+
+#weather-icon {
+    text-align: center;
+ 
+    
+}
+figcaption {
+ 
+    font-size: 20px;
+    font-family: Thasadith;
+    font-weight: bold;
+}
