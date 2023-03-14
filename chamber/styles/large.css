@@ -20,6 +20,7 @@
     }
 
     h1 {
+        margin-top: 25px;
         min-width: 355px;
         font-size: 40px;
         color: white;
@@ -91,8 +92,8 @@
 
     nav ul li.active a {
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        color: black;
-        background-color: #F1EEDD;
+        color: white;
+        background-color: #df9425;
     }
 
     nav ul li a:hover {
@@ -118,7 +119,7 @@
 
     .social a img:hover {
 
-        border: 1.5px solid #F1EEDD;
+        border: 1.5px solid rgba(161, 200, 216, 0.3);
     }
 
     #message {
@@ -153,7 +154,7 @@
     }
 
     #discover-title {
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         height: 110px;
     }
 
@@ -163,7 +164,7 @@
 
     #demographics {
         padding: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         font-size: 20px;
         font-family: Thasadith;
         font-weight: bold;
@@ -176,6 +177,10 @@
         margin-right: 50px;
     }
 
+    .discover-info {
+        font-family: Thasadith;
+        font-weight: bold;
+    }
     .main-grid {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
@@ -203,30 +208,31 @@
         position: absolute;
         left: 20px;
         bottom: 20px;
-        height: 35px;
-        width: 120px;
-        background-color: #F1EEDD;
+        background-color: #df9425;
         border-radius: 3px;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        height: 35px;
+        width: 120px;
+      
     }
 
     #join a {
         font-family: Thasadith;
-        color: black;
+        color: white;
         text-decoration: none;
         font-size: 16px;
     }
 
     .hero-box img {
-        /*  width: 100%;
-        height: 100%; */
+        width: 100%;
+        height: 100%; 
     }
 
     .hero-box {
         align-items: center;
         grid-column: 2/3;
         grid-row: 1/3;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         font-family: Caladea;
         text-align: center;
         font-weight: bold;
@@ -235,14 +241,14 @@
 
     }
 
-    /*.hero-bg-img {
+    .hero-bg-img {
         background-color: white;
         background-image: url("../images/hero3.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
-    }*/
+    }
 
     .events-box {
         grid-column: 1/2;
@@ -250,7 +256,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         padding: 10px;
         display: grid;
 
@@ -258,7 +264,7 @@
 
     .company-name p {
         font-size: 20px;
-        color: rgb(235, 100, 121);
+       color: black;
         font-family: Caladea;
         font-weight: bold;
     }
@@ -285,11 +291,11 @@
         border: 8px solid c;
         border-radius: 5px;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         font-family: Caladea;
         font-weight: bold;
-        color: blue;
-        background-color: rgb(181, 196, 219);
+        color: black;
+        background-color: rgb(245, 242, 239);
         
 
 
@@ -306,6 +312,8 @@
     }
 
     figcaption {
+       margin-right: 50px; 
+       margin-left: 50px;
        border-bottom: 1px solid rgba(12, 0, 0, 0.5);
        padding: 10px;
        
@@ -334,7 +342,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
 
 
     }
@@ -391,7 +399,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         height: 100%;
         display: grid;
         align-items: center;
@@ -403,7 +411,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         display: grid;
         align-items: center;
     }
@@ -414,7 +422,7 @@
         border-radius: 5px;
         text-align: center;
         font-size: 20px;
-        background-color: rgb(250, 245, 245);
+        background-color: rgb(245, 242, 239);
         display: grid;
         align-items: center;
     }
@@ -432,7 +440,8 @@
         font-weight: bold;
         height: 35px;
         width: 120px;
-        background-color: #F1EEDD;
+        background-color: #df9425;
+        color: white;
         border-radius: 2px;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     }
@@ -440,7 +449,7 @@
     #join2 a {
         font-family: Thasadith;
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 18px;
         font-weight: bold;
     }
@@ -449,6 +458,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-weight: bold;
+        color: black;
     }
 
     #join-info p {
