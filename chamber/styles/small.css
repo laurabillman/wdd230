@@ -175,13 +175,19 @@
 
     h3 {
         color: #404a5e;
+        background-color: rgb(245, 242, 239);
         font-family: Thasadith;
         font-size: 30px;
+        height: 100px;
+        margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    h4 {
+        font-family: 
+    }
     #discover-title {
         background-color: rgb(245, 242, 239);
         padding-top: 15px;
@@ -253,7 +259,59 @@
         margin: 5px;
 
     }
+    #contact-page-company {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+        font-size: 30px;
+        font-weight: bold;
+       
+    }
+    .contact-page-info {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    #contact-page-help {
+        margin-top: 50px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    #contact-page-visit {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-family: Thasadith;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #contact-page-email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Thasadith;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    #map-picture {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #contact-form {
+        margin-top: 25px;
+    }
     .hero-box p {
         background-color: rgba(255, 255, 255, .8);
         font-family: Caladea;
