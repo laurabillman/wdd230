@@ -22,7 +22,7 @@
 <body>
     <header>
         <section id="header-top">
-            <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+            <a id="home-link" href="index.html"><img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce logo"></a>
             <h1>Syracuse Chamber of Commerce</h1>
             <div style="width: 100%;"></div>
             <div class="social">
@@ -51,15 +51,15 @@
         </section>
     </header>
     <main>
-        <section id="discover-title">
-            <h3>DISCOVER SYRACUSE!</h3>
+        <section>
+            <h3 id="discover-title">DISCOVER SYRACUSE!</h3>
         </section>
         <section id="demographics">
             <p>Syracuse is the 35th most populated city in the state of Utah, with a population of 31,715 people.
                 Syracuse racial/ethnic groups are White (87.0%), Hispanic (6.1%), and Two or More (2.9%).
                 The public schools in Syracuse are above average.
-                In 2022, the median household income in Syracuse was $114,547. Living in Syracuse offers residents a
-                rural feel and most residents own their homes.
+                In 2022, the median household income in Syracuse was $114,547. Living in Syracuse offers residents 
+                rural free living and most residents own their homes.
                 In Syracuse there are a lot of parks. Many families live in Syracuse and residents tend to be
                 conservative.</p>
         </section>
@@ -136,7 +136,7 @@
         <section id="footer-top">
             <div>
                 <div id="footer-logo">
-                    <img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+                    <img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce logo">
                     <div class="companyName">
                         <div>Syracuse Chamber of Commerce</div>
                         <div class="companyInfo">1800 West 1900 South</div>
@@ -152,7 +152,7 @@
         </section>
         <section class="footer-bottom">
             <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
-            <p>Last Modified: 3/11/2023</p>
+            <p>Last Modified: 3/18/2023</p>
             <p>Days between last visit: <span id="last-visited"></span>
         </section>
 
@@ -163,6 +163,7 @@
         document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
     </script>
     <script src="js/discover.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

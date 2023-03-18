@@ -176,9 +176,10 @@
     h3 {
         color: #404a5e;
         background-color: rgb(245, 242, 239);
-        font-family: Thasadith;
+        font-family: Caladea;
         font-size: 30px;
-        height: 100px;
+        padding: 15px;
+        height: 30px;
         margin: 0px;
         display: flex;
         justify-content: center;
@@ -186,16 +187,26 @@
     }
 
     h4 {
-        font-family: 
-    }
-    #discover-title {
-        background-color: rgb(245, 242, 239);
-        padding-top: 15px;
-        height: 35px;
+        font-family:
     }
 
-    #discover-title h3 {
-        margin: 0;
+    h3 #discover-title {
+        background-color: rgb(245, 242, 239);
+        padding-top: 15px;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+
+    h3 #directory-title {
+        padding-top: 20px;
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #demographics {
@@ -259,6 +270,11 @@
         margin: 5px;
 
     }
+
+    #contact-page-title {
+        margin: 0px;
+    }
+
     #contact-page-company {
         display: flex;
         justify-content: center;
@@ -266,8 +282,9 @@
         margin-top: 75px;
         font-size: 30px;
         font-weight: bold;
-       
+
     }
+
     .contact-page-info {
         font-size: 25px;
         display: flex;
@@ -293,6 +310,7 @@
         font-size: 20px;
         font-weight: bold;
     }
+
     #contact-page-email {
         display: flex;
         justify-content: center;
@@ -302,6 +320,7 @@
         font-weight: bold;
 
     }
+
     #map-picture {
         margin-top: 90px;
         display: flex;
@@ -309,9 +328,11 @@
         align-items: center;
 
     }
+
     #contact-form {
         margin-top: 25px;
     }
+
     .hero-box p {
         background-color: rgba(255, 255, 255, .8);
         font-family: Caladea;
@@ -336,6 +357,10 @@
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     }
 
+    #join:hover {
+        background-color: gray;
+    }
+
     #join a {
         font-family: Thasadith;
         color: white;
@@ -346,10 +371,18 @@
 
     .hero-box img {
         width: 100%;
-        height: 100%; 
+        height: 100%;
     }
 
 
+    .hero-bg-img {
+        background-color: white;
+        background-image: url("../images/hero3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
 
 
     .hero-box {
@@ -429,24 +462,24 @@
         margin-right: 50px;
         border-bottom: 1px solid rgba(12, 0, 0, 0.5);
         padding: 10px;
-        
- 
- 
-     }
- 
- 
-     #wind-speed-chill {
-         font-size: 20px;
-         margin-top: 75px;
-     }
- 
-     #weatherData {
-         color: white;
-         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
- 
-     }   
-    
- 
+
+
+
+    }
+
+
+    #wind-speed-chill {
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #weatherData {
+        color: white;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+    }
+
+
 
     .unit {
         color: black;
@@ -485,8 +518,18 @@
 
     }
 
-    #ad {
+    .ad {
         width: 250px;
+
+    }
+
+    .spotlight-container {
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .slogan {
@@ -514,6 +557,7 @@
         font-size: 20px;
         background-color: rgb(245, 242, 239);
         align-items: center;
+        height: 100%;
     }
 
 
@@ -546,10 +590,14 @@
         margin-bottom: 20px;
     }
 
+    #join2:hover {
+        background-color: gray;
+    }
+
     #join2 a {
         font-family: Thasadith;
         text-decoration: none;
-        color:white;
+        color: white;
         font-size: 18px;
         font-weight: bold;
     }

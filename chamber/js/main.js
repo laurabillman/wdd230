@@ -38,6 +38,7 @@ else if (day == "Tuesday") {
 
 }
 
+
 /*let temp = parseInt(temperature.textContent);
 console.log(temp);
 

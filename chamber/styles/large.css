@@ -30,6 +30,11 @@
         display: flex;
     }
 
+
+    #home-link a:hover {
+
+
+    }
     .date h2 {
         color: white;
         font-weight: bold;
@@ -146,20 +151,19 @@
     h3 {
         color: #404a5e;
         background-color: rgb(245, 242, 239);
-        font-family: Thasadith;
+        font-family: Caladea;
         font-size: 50px;
         margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 175px;
-        
-    }
-
-    #directory-title h3 {
         margin: 0px;
     }
 
+   
+    #directory-title h3 {
+       
+    }
 
     #contact-title h3 {
         margin: 0;
@@ -172,6 +176,7 @@
         margin-top: 75px;
        
     }
+
     .contact-page-info {
         display: flex;
         justify-content: center;
@@ -375,10 +380,7 @@
         font-weight: bold;
         color: black;
         background-color: rgb(245, 242, 239);
-        
-
-
-
+       
     }
 
 
@@ -462,7 +464,7 @@
         align-items: center;
     }
 
-    #ad {
+    .ad {
         width: 250px;
     }
 
@@ -491,6 +493,7 @@
         text-align: center;
         font-size: 20px;
         background-color: rgb(245, 242, 239);
+        height: 100%;
         display: grid;
         align-items: center;
     }

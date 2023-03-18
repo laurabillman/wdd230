@@ -201,6 +201,7 @@
 
 
     h3 {
+        margin: 0px;
         color: #404a5e;
         font-family: Thasadith;
         font-size: 40px;
@@ -289,6 +290,16 @@
         height: 100%; 
 
     }
+
+    .hero-bg-img {
+        background-color: white;
+        background-image: url("../images/hero3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+
 
     #join {
         font-weight: bold;
@@ -410,7 +421,7 @@
     }
 
 
-    #ad {
+    .ad {
         width: 250px;
     }
 
@@ -428,6 +439,7 @@
         text-align: center;
         font-size: 20px;
         background-color: rgb(245, 242, 239);
+        height: 100%;
 
 
     }
@@ -440,7 +452,7 @@
         text-align: center;
         font-size: 20px;
         background-color: rgb(245, 242, 239);
-        height: 200px;
+        height: 100%;
 
 
     }
