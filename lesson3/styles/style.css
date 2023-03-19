@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-    background-color: #598392;
+    background-color: #404a5e;
     color: white;
     display: flex;
     justify-content: center;
@@ -145,24 +145,18 @@ p {
    
 }
     
-.blue1 {
-    background-color: #598392;
+.blue {
+    background-color: #404a5e;
     height:65px;
     width: 175px;
     padding: 10px;
     border: 1px solid black;
     align-items: center;
     margin: auto;
+    color: white;
   }
   
-.blue2 {
-    background-color: #B1C9CB;
-    height:65px;
-    width: 175px;
-    padding: 10px;
-    border: 1px solid black;
-    margin: auto;
-  }
+
   
 .tan {
     background-color: #F1EEDD;
@@ -172,7 +166,14 @@ p {
     border: 1px solid black;
     margin: auto;
   }
-
+.gold {
+    background-color: #df9425;
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
 .white {
     background-color: #FFFFFF;
     height:65px;
@@ -181,7 +182,14 @@ p {
     border: 1px solid black;
     margin: auto;
   }
-
+.gray {
+    background-color: rgb(245, 242, 239);
+    height:65px;
+    width: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
 .black {
     background-color: black;
     height:65px;
@@ -195,7 +203,7 @@ p {
 
 
 footer {
-    background-color: #598392;
+    background-color: #404a5e;
     color: rgb(255, 253, 253);
     display: flex;
     justify-content: space-around;
