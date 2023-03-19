@@ -1,10 +1,4 @@
-/*function getDate() {
-    let currentTime = new Date();
-    let curdate = currentTime.getDate();
-    document.getElementbyId("hiddenDate").value = curdate;
-    return true;
 
-}*/
 
 
 

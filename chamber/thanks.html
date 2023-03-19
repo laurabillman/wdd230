@@ -21,7 +21,7 @@
 <body>
     <header>
         <section id="header-top">
-            <img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+            <a id="home-link" href="index.html"><img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce Logo" ></a>
             <h1>Syracuse Chamber of Commerce</h1>
             <div style="width: 100%;"></div>
             <div class="social">
@@ -40,7 +40,7 @@
             <nav>
                 <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primary-nav">
-                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="discover.html">DISCOVER</a></li>
                     <li><a href="directory.html">DIRECTORY</a></li>
                     <li><a href="join.html">JOIN</a></li>
@@ -59,7 +59,7 @@
         <section id="footer-top">
             <div>
                 <div id="footer-logo">
-                    <img id="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce">
+                    <a id="home-link" href="index.html"><img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce Logo" ></a>
                     <div class="companyName">
                         <div>Syracuse Chamber of Commerce</div>
                         <div class="companyInfo">1800 West 1900 South</div>
@@ -75,13 +75,13 @@
         </section>
         <section class="footer-bottom">
             <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
-            <p>Last Modified: 3/11/2023</p>
         </section>
         <script>
             // toLocalDateString
             const options = { weekday: "long", day: "numeric", month: "long", year: "numeric" };
             document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
         </script>
+        <script src="js/main.js"></script>
     </footer>
 
 </body>

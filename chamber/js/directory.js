@@ -4,7 +4,6 @@ getBusinessData();
 
 
 function output(businesses) {
-    //debugger
     let businessCards = document.querySelector(".cards");
 
     for (let i = 0; i < businesses.length; i++) {
@@ -44,7 +43,7 @@ function output(businesses) {
     } 
 } 
 
-
+//function to get businesses json file
 async function getBusinessData() {
     const url = "../chamber/data.json";
     const response = await fetch(url);

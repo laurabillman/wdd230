@@ -1,4 +1,4 @@
-//localStorage.clear();
+
 let lastVisitDate = localStorage.getItem('lastVisitDate');
 let todaysDate = Date.now();
 let daysSinceLastVisit;
@@ -13,10 +13,10 @@ else {
 }
 
 document.getElementById("last-visited").innerHTML = daysSinceLastVisit;
-//console.log(daysSinceLastVisit);
+
 
 const imagesToLoad = document.querySelectorAll("img[data-src]");
-//console.log(imagesToLoad);
+
 
 const imgOptions = {
     threshold: 1,
