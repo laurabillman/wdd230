@@ -172,18 +172,15 @@
     }
 
 
-
     h3 {
         color: #404a5e;
         background-color: rgb(245, 242, 239);
         font-family: Caladea;
-        font-size: 30px;
-        padding: 15px;
-        height: 30px;
-        margin: 0px;
+        font-size: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-TOP: 40px;
     }
 
     h4 {
@@ -201,7 +198,7 @@
 
     h3 #directory-title {
         padding-top: 20px;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: bold;
         margin-top: 0px;
         display: flex;
@@ -215,6 +212,7 @@
         font-size: 16px;
         font-family: Thasadith;
         font-weight: bold;
+
     }
 
     #demographics p {
@@ -271,9 +269,12 @@
 
     }
 
-    #contact-page-title {
-        margin: 0px;
+    #map-container {
+        display: flex;
+        justify-content: center;
     }
+
+   
 
     #contact-page-company {
         display: flex;
@@ -303,8 +304,7 @@
 
 
     #contact-page-visit {
-        display: flex;
-        justify-content: center;
+       text-align: center;
         margin-top: 50px;
         font-family: Thasadith;
         font-size: 20px;
@@ -772,7 +772,6 @@
 
 
     table {
-
         margin: 24px 50px;
         color: black;
         box-shadow: 0 0 7px var(--shadow);

@@ -22,7 +22,8 @@
 <body>
     <header>
         <section id="header-top">
-            <a id="home-link" href="index.html"><img class="logo" src="images/logo3.png" alt="Syracuse Chamber of Commerce logo"></a>
+            <a id="home-link" href="index.html"><img class="logo" src="images/logo3.png"
+                    alt="Syracuse Chamber of Commerce logo"></a>
             <a href="index.html"></a>
             <h1>Syracuse Chamber of Commerce</h1></a>
             <div style="width: 100%;"></div>
@@ -53,38 +54,40 @@
     </header>
     <main>
         <section id="contact-title">
-            <h3>Contact Us</h3>
+            <h3>CONTACT US</h3>
         </section>
-        <section class="main-contact-container">
-            <div id="contact-page-company">Syracuse Chamber of Commerce</div>
-            <div class="contact-page-info">1800 West 1900 South</div>
-            <div class="contact-page-info">Syracuse, UT 84075</div>
-            <div class="contact-page-info">(385)870-2020</div>
-        </section>
-        <section class="website-map">
-            <div id="contact-page-visit"> For information about Syracuse Chamber of Commerce visit:</div>
-            <div id="contact-page-email"> info@syracusechamber.org</div>
-            <iframe id="map-picture"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.974818120414!2d-112.0639076!3d41.0855216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87531b5f2bec17e9%3A0x516050dcb50fd1cc!2sSyracuse%20City%20Hall!5e0!3m2!1sen!2sus!4v1678825729001!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <section>
-                <div id="contact-page-help">Send us your questions or comments using the form below. We will respond
-                    promptly to your inquiry.</div>
-            </section>
-            <form action="contact-message.html">
-                <fieldset id="contact-form">
-                    <legend>Contact Information</legend>
-                    <label class="top">Full Name*<input type="text" name="fname" required></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="johndoe@gmail.com"
-                            required></label>
-                    <label id="contact-form-question-" class="top">Questions/Comments*<input type="text"
-                            required></label>
-                    <input id="hiddenDate" type="hidden" name="date">
-                </fieldset>
-                <input id="submitbutton" type="submit" value="Submit" class="submitBtn">
-            </form>
+        <section id="main-container">
+            <div id="main-contact-container">
+                <div>
+                    <div id="contact-page-company">Syracuse Chamber of Commerce</div>
+                    <div class="contact-page-info">1800 West 1900 South</div>
+                    <div class="contact-page-info">Syracuse, UT 84075</div>
+                    <div class="contact-page-info">(385)870-2020</div>
+                    <div id="contact-page-visit"> For information about Syracuse Chamber of Commerce visit:</div>
+                    <div id="contact-page-email"> info@syracusechamber.org</div>
+                </div>
+                <section id="contact-container">
+                    <form action="contact-message.html">
+                        <fieldset id="contact-form">
+                            <legend>Contact Form</legend>
+                            <label class="top">Full Name*<input type="text" name="fname" required></label>
+                            <label class="top">Email*<input type="email" name="email" placeholder="johndoe@gmail.com"
+                                    required></label>
+                            <label id="contact-form-question-" class="top">Questions/Comments*<input type="text"
+                                    required></label>
+                            <input id="hiddenDate" type="hidden" name="date">
+                        </fieldset>
+                        <input id="submitbutton" type="submit" value="Send Message" class="submitBtn">
+                    </form>
+                </section>
             </div>
+            <div id="map-container">
+                <iframe id="map-picture"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.974818120414!2d-112.0639076!3d41.0855216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87531b5f2bec17e9%3A0x516050dcb50fd1cc!2sSyracuse%20City%20Hall!5e0!3m2!1sen!2sus!4v1678825729001!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
     <footer>
         <section id="footer-top">
@@ -107,7 +110,6 @@
         <section class="footer-bottom">
             <div class="bottom">&copy; 2023 | Syracuse Chamber | Laura Billman | WDD 230 Project |</div>
             <p>Last Modified: 3/18/2023</p>
-            <p>Weather Data Source By: <a id="weatherData" href="https://openweathermap.org/">OpenWeather.com</a></p>
         </section>
     </footer>
 

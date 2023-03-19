@@ -201,14 +201,17 @@
 
 
     h3 {
-        margin: 0px;
         color: #404a5e;
-        font-family: Thasadith;
-        font-size: 40px;
+        background-color: rgb(245, 242, 239);
+        font-family: Caladea;
+        font-size: 45px;
+        margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 40px;
     }
+
 
     #discover-title {
         background-color: rgb(245, 242, 239);
