@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1025px) {
+
+    :root {
+        --centered-width: 1366px;
+    }
+
+
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .fruit-grid-container {
+        font-family: Quattrocento;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 438px;
+    }
+
+    #fruit-grid {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #fruit-veggie-grid {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #fruit-drink-grid {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #coast-title-container {
+        width: 86%;
+    }
+
+    #coast-img {
+        width:88%;
+    }
+    
+}

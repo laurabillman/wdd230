@@ -1,0 +1,679 @@
+:root {
+    --primary: #7FD6CF;
+    --secondary: #FFA500;
+    --accent-1: #82C665;
+    --accent-2: white;
+
+    --color-header: var(--primary);
+
+    --font-1: Pontano Sans;
+    --font-2: Quattrocento;
+    --font-3: Monda;
+
+    --centered-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(127, 214, 207);
+    height: 75px;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: rgb(73, 72, 72);
+}
+
+nav a {
+    background-color: rgb(127, 214, 207);
+    color: white;
+    font-family: Monda;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav button {
+    display: none;
+}
+
+header {
+    height: 125px;
+}
+
+h1 {
+    background-color: var(--primary);
+    color: var(--accent-1);
+    font-family: var(--font-1);
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+
+#header-top {
+    background-color: rgb(127, 214, 207);
+}
+
+
+.logo {
+    margin-left: 10px;
+}
+
+.header-nav {
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+   
+}
+
+.social {
+    margin-right: 50px;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    color: var(--accent-2);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: rgb(73, 72, 72);
+}
+
+.header-nav a.active {
+    text-decoration: underline;
+}
+
+.hero-box p {
+    font-family: Pontano Sans;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero-box img {
+    width: 100%;
+    height: 100%;
+}
+
+#hero-box {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 242, 239);
+}
+
+#hero-img {
+    width: 100%;
+    max-width: 1075px;
+}
+
+.fruit-image {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 10px;
+}
+
+.fruit-container-btm {
+    font-family: var(--font-3);
+    font-size: 20px;
+    color: var(--accent-2);
+    text-align: center;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruit-container {
+    width: 100%;
+    color: white;
+    font-family: Quattrocento;
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.fruit-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fruit-info {
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: orange;
+    font-family: Pontano Sans;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.veggie-container {
+    width: 100%;
+    color: white;
+    font-family: Quattrocento;
+    text-align: center;
+    background-color: #82C665;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.veggie-info {
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: #82C665;
+    font-family: Pontano Sans;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#drink-container {
+    width: 100%;
+    color: white;
+    font-family: Quattrocento;
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+#drink-info {
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: orange;
+    font-family: Pontano Sans;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#drink-button-box {
+    font-family: Quattrocento;
+    background-color: rgb(127, 214, 207);
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 75px;
+}
+
+#drink-button-box a {
+    font-family: Monda;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#drink-button-box a:hover {
+    color: rgb(73, 72, 72);
+}
+
+
+.button-box {
+    background-color: rgb(127, 214, 207);
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box p {
+    font-family: var(--font-3);
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button-box a:hover {
+    color: white;
+}
+
+#coast-title-container {
+    font-family: Pontano Sans;
+    font-size: 25px;
+    background-color: #82C665;
+    color: white;
+    margin-top: 0px;
+    height: 150px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#coast-title-container h2 {
+    margin-top: 20px;
+}
+
+#coast-location {
+    font-family: Pontano Sans;
+    font-size: 25px;
+}
+
+.coastimg-container {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coast-img {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 12px double #82C665;
+    margin-right: 20px;
+}
+
+.coast-discover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: orange;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+#coastal-title {
+    font-size: 32px;
+    font-family: Monda;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: white;
+    text-align: center;
+}
+
+#coastal-info {
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    font-family: Pontano Sans;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    padding: 40px;
+}
+
+h3 {
+    font-family: Quattrocento;
+}
+
+.weather-box {
+    min-height: 350px;
+    background-color: #F5F2EF;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 4/4;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px
+}
+
+#three-day-box {
+    margin-top: 6px;
+}
+
+#weather-source a {
+    color: darkblue;
+}
+
+#weather-title {
+    color: darkblue;
+    font-size: 23px;
+}
+
+#city-title {
+    font-size: 23px;
+}
+
+
+#current-temp {
+    font-size: 23px;
+}
+
+#condition {
+    text-align: center
+}
+
+#carlsbad-weather {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: black;
+    margin-left: 5px;
+    font-family: Pontano Sans;
+    text-align: center;
+    background-color: rgb(245, 206, 180);
+    width: 350px;
+    height: 275px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.three-day-forcast {
+    display: inline-block;
+}
+
+#humidity2 p,
+#humidity3 p,
+#humidity4 p {
+    font-size: 10px;
+}
+
+#first-day {
+    background-color: rgb(245, 206, 180);
+    width: 255px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 5px;
+    font-family: Pontano Sans;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+#second-day {
+    background-color: rgb(245, 206, 180);
+    width: 255px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 0px;
+    font-family: Pontano Sans;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+#third-day {
+    background-color: rgb(245, 206, 180);
+    width: 255px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 0px;
+    font-family: Pontano Sans;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+#first-day h3,
+#second-day h3,
+#third-day h3 {
+    color: darkblue;
+}
+
+#weather-source {
+    text-align: center;
+    background-color: rgb(245, 206, 180);
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#weather-source p {
+    font-family: News Cycle;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(127, 214, 207);
+    text-align: center;
+    height: 100%;
+    padding: 5px;
+    border-top: 1px solid rgba(228, 224, 224, 0.5);
+    margin-top: 20px;
+    color: white;
+}
+
+footer #logo img {
+    text-align: center;
+}
+
+footer .companyName {
+    justify-content: center;
+    display: block;
+    font-family: Pontano Sans;
+}
+
+footer .companyInfo {
+    justify-content: center;
+    display: block;
+    font-family: Pontano Sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact-info {
+    font-size: 18px;
+}
+
+footer .bottom {
+    font-family: Pontano Sans;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+
+footer p {
+    font-family: Pontano Sans;
+    text-align: center;
+}
+
+#location-map {
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: Pontano Sans;
+}
+
+
+/*--------------- FORM & TABLE ----------------*/
+
+.fresh-title {
+    font-size: 40px;
+    font-family: var(--font-2);
+}
+
+#fresh-title {
+    text-align: center;
+    color: rgb(89, 194, 89);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#fresh-description {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#customize {
+    font-size: 25px;
+    font-family: Pontano Sans;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#form-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 23rem;
+    border-radius: 5px;
+    padding: .5rem 2%;
+    display: table;
+    margin: auto;
+}
+
+form label {
+    color: yellow;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 18px;
+    font-family: Pontano Sans;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font: 1rem;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(255, 254, 254, 0.1);
+}
+
+option {
+    font-family: Thasadith;
+    font-weight: bold;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    padding: 5px;
+    height: 50px;
+    margin-top: 10px;
+    width: 25rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#submit:hover {
+    color: rgb(73, 72, 72);
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#business-description textarea {
+    height: 75px;
+    font-family: Thasadith;
+
+}
+
+textarea placeholder {
+    font-family: Thasadith;
+}
+
+
+.centered-container {
+    margin: 0 auto;
+    max-width: var(--centered-width);
+}
+
+.double-orange-border {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
+
+.double-green-border {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
+
+.background-secondary {
+    background-color: var(--secondary);
+}
+
+.background-accent-1 {
+    background-color: var(--accent-1);
+}
+
+.row-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row-align-items-center {
+    display: flex;
+    align-items: center;
+}
