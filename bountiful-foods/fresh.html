@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover shrink-to-fit=no">
     <meta name="description"
-        content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+          content="Assignment portal for laura Billman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>/Bountiful Foods Home Page</title>
+    <title>Bountiful Foods Fresh Page</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Monda:wght@700&family=News+Cycle:wght@700&family=Passion+One&family=Pontano+Sans:wght@400;700&family=Quattrocento+Sans&display=swap"
-        rel="stylesheet">
+            href="https://fonts.googleapis.com/css2?family=Monda:wght@700&family=News+Cycle:wght@700&family=Passion+One&family=Pontano+Sans:wght@400;700&family=Quattrocento+Sans&display=swap"
+            rel="stylesheet">
     <!-- phone-default -->
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- enhance phone-->
     <link href="styles/small.css" rel="stylesheet">
     <!-- enhance tablet-->
     <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance desktop -->
     <link href="styles/large.css" rel="stylesheet">
 </head>
-
 <body>
-    <header id="header-top">
-        <div class="centered-container">
-            <section class="sized-container row-align-items-center">
-                <a href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods website logo"></a>
-                <!--<h1>Bountiful Foods</h1>-->
-                <!--<div style="width: 100%;"></div>-->
-                <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
-                <nav class="header-nav">
-                    <a href="index.html">Home</a>
-                    <a class="active" href="fresh.html">Fresh</a>
-                    <a href="about.html">About Us</a>
-                </nav>
-                <div class="social">
-                    <a href="https://facebook.com" class="fa fa-facebook"></a>
-                    <a href="https://instagram.com" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com" class="fa fa-twitter"></a>
-                </div>
-            </section>
-        </div>
-    </header>
-    <main>
+<header id="header-top">
+    <div class="centered-container">
+        <section class="sized-container row-align-items-center">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods website logo"></a>
+            <!--<h1>Bountiful Foods</h1>-->
+            <!--<div style="width: 100%;"></div>-->
+            <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+            <nav class="header-nav">
+                <a href="index.html">Home</a>
+                <a class="active" href="fresh.html">Fresh</a>
+                <a href="about.html">About Us</a>
+            </nav>
+            <div class="social">
+                <a href="https://facebook.com" class="fa fa-facebook"></a>
+                <a href="https://instagram.com" class="fa fa-instagram"></a>
+                <a href="https://twitter.com" class="fa fa-twitter"></a>
+            </div>
+        </section>
+    </div>
+</header>
+<main>
     <section>
         <section>
             <h2 id="fresh-title">FRESH </h2>
@@ -51,7 +51,6 @@
         </section>
     </section>
     <section id="form-table">
-
         <div>
             <form action="thanks.html">
                 <scetion>
@@ -60,9 +59,9 @@
                 <fieldset>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="johndoe@gmail.com"
-                        required></label>
+                                                    required></label>
                     <label class="top">Phone Number*<input type="tel" name="phone" required
-                            placeholder="6784441234"></label>
+                                                           placeholder="6784441234"></label>
                     <label class="top">Fruit Options [CHOOSE 3]
                         <select name="fruit-options">
                             <option value="">Select Fruit 1...</option>
@@ -87,55 +86,33 @@
                         </select>
                     </label>
                     <label id="business-description" class="top">Special Instructions (Optional)</label>
-                    <textarea placeholder="Write special instructions for your customized fruit juice" rows="8" cols="45"></textarea>
+                    <textarea placeholder="Write special instructions for your customized fruit juice" rows="8"
+                              cols="45"></textarea>
                     <input id="hiddenDate" type="hidden" name="date">
                 </fieldset>
                 <input id="submit" type="submit" value="Order Fruit Drink" class="submitBtn">
             </form>
         </div>
-
     </section>
-    </main>
-    <footer>
-        <section id="footer-top">
-            <div>
-                <div id="footer-logo">
-                    <a href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods logo"></a>
-                    <div class="companyName">
-                        <div>Bountiful Foods</div>
-                        <div class="companyInfo">338 Coastal Drive </div>
-                        <div class="companyInfo">Carlsbad, CA 92008 </div>
-                    </div>
+</main>
+<footer>
+    <section id="footer-top">
+        <div>
+            <div id="footer-logo">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods logo"></a>
+                <div class="companyName">
+                    <div>Bountiful Foods</div>
+                    <div class="companyInfo">338 Coastal Drive</div>
+                    <div class="companyInfo">Carlsbad, CA 92008</div>
                 </div>
             </div>
-        </section>
-        <section class="footer-bottom">
-            <div class="bottom">&copy; 2023 | Bountiful Foods | Laura Billman | WDD 230 Project |</div>
-            <p>Last Modified: 3/18/2023</p>
-        </section>
-    </footer>
-
-    <script>
-        // toLocalDateString
-        const options = { weekday: "long", day: "numeric", month: "long", year: "numeric" };
-        document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
-    </script>
-    <script src="js/main.js"></script>
-    <script src="../lesson10/scripts/weatherapi.js"></script>
-    <script src="js/spotlights.js"></script>
-
+        </div>
+    </section>
+    <section class="footer-bottom">
+        <div class="bottom">&copy; 2023 | Bountiful Foods | Laura Billman | WDD 230 Project |</div>
+        <p>Last Modified: 3/18/2023</p>
+    </section>
+</footer>
+<script src="scripts/main.js"></script>
 </body>
-
-</html>
-    <script>
-        // toLocalDateString
-        const options = { weekday: "long", day: "numeric", month: "long", year: "numeric" };
-        document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US", options);
-    </script>
-    <script src="js/main.js"></script>
-    <script src="../lesson10/scripts/weatherapi.js"></script>
-    <script src="js/spotlights.js"></script>
-
-</body>
-
 </html>
