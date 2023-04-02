@@ -1,14 +1,8 @@
-function toggleMenu() {
-    document.getElementById("top-nav").classList.toggle("open")
-    document.getElementById("hamburger-btn").classList.toggle("open")
-}
 
-/*const x = document.getElementById("hamburger-btn");
-x.onclick = toggleMenu;*/
-
+const today = new Date();
+document.getElementById("mod-date").innerHTML = today.toDateString();
 
 const imagesToLoad = document.querySelectorAll("img[data-src]");
-
 
 const imgOptions = {
     threshold: 1,
@@ -40,9 +34,3 @@ if ("IntersectionObserver" in window) {
         loadImages(img);
     });
 }
-
-
-
-
-
-

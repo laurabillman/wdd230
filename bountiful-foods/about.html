@@ -22,6 +22,7 @@
     <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance desktop -->
     <link href="styles/large.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/85fb9126ee.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,13 +30,15 @@
         <div class="centered-container">
             <section class="sized-container row-align-items-center">
                 <a href="index.html"><img class="logo" src="images/logo.png" alt="Bountiful Foods website logo"></a>
-                <!--<h1>Bountiful Foods</h1>-->
-                <!--<div style="width: 100%;"></div>-->
-                <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
                 <nav class="header-nav">
-                    <a href="index.html">Home</a>
-                    <a href="fresh.html">Fresh</a>
-                    <a class="active" href="about.html">About Us</a>
+                    <a class="regular-nav" href="index.html">Home</a>
+                    <a class="small-nav" href="index.html"><i class="fa-solid fa-home"></i></a>
+                    <a class="regular-nav" href="fresh.html">Fresh</a>
+                    <a class="small-nav" style="margin-left: 15px;" href="fresh.html"><i
+                            class="fa-solid fa-apple-whole"></i></a>
+                    <a class="active regular-nav" href="about.html">About Us</a>
+                    <a class="small-nav" style="margin-left: 15px;" href="about.html"><i
+                            class="fa-solid fa-circle-info"></i></a>
                 </nav>
                 <div class="social">
                     <a href="https://facebook.com" class="fa fa-facebook"></a>
@@ -46,27 +49,20 @@
         </div>
     </header>
     <main>
-        <section id="about-title">
-            <h3>ABOUT US</h3>
+        <section>
+            <h2 id="about-title">ABOUT US</h2>
         </section>
-        <section class="about-grid">
+        <section>
             <div id="about-container">
                 <h2 id="about-company-name">BOUNTIFUL FOODS</h2>
-                <p id="about-info">Bountiful Foods is always Fresh Organic! Bountiful Foods is small business
-                    specializing
-                    in organic, locally grown foods.
-                    They are physically located in Carlsbad, California, however, they have many food trucks that cover
-                    the
-                    coastal area from Los Angeles to San Diego.
-                    The company sells fruits and produce directly from the farmers in the area, but also uses some
-                    national
-                    and international suppliers. The owner-operated
-                    company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks.
-                    They deliver and manage those orders on the phone and via the website.
-                    The mission is to provide fresh and healthy food options, including organic, made to order, fruit
-                    drinks
-                    and fruit bags, to the local population and to tourists visiting the coastal areas.
-                    The theme should support healthy eating, organic bounty, and convenience</p>
+                <p id="about-info">Bountiful Foods is a family owned business located in Carlsbad, California. Our company 
+                    started in 2009 when we desired to partner with local farmers in California and international suppliers in order 
+                    to provide healthy, organic fresh food options with convenience. These healthy foods include: fresh fruit and produce, 
+                    fruit and vegetable bags, and delicious specialty fruit drinks supplied  
+                    to locals in the Carlsbad area, local restuarants, grocers, and tourists. We have many food trucks 
+                    that sell fresh produce all over the Southern coastal area and more. Our mission is to offer 
+                    our customers with only the freshest, healthiest foods that will always be certified organic guarenteed! Bountiful Foods 
+                    caters to walkins at our Carlsbad, CA storefront and also provides orders by phone and through our website.   
             </div>
             <section>
                 <div id="about-contact-container">
@@ -79,7 +75,7 @@
             </section>
             <div id="map-container">
                 <iframe id="map-picture"
-                    src="https://goo.gl/maps/6rxgUjjjPiHpAHgi9"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.86080965448!2d-117.287802!3d33.12151955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1680406949141!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -100,10 +96,8 @@
         </section>
         <section class="footer-bottom">
             <div class="bottom">&copy; 2023 | Bountiful Foods | Laura Billman | WDD 230 Project |</div>
-            <p>Last Modified: 3/18/2023</p>
         </section>
     </footer>
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>
