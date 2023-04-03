@@ -545,8 +545,13 @@ footer .bottom {
     font-size: 15px;
     text-align: center;
     border-top: 1px solid white;
+    
 }
 
+.footer-bottom .bottom {
+    margin-top: 10px;
+    
+}
 
 footer p {
     font-family: Pontano Sans;
@@ -672,6 +677,33 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+#order-details-box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#order-details {
+    font-size: 25px;
+    font-family: Pontano Sans;
+    border: 2px solid black;
+    width: 600px;
+    min-height: 500px;
+    display: block;
+    padding : 10px;
+    text-align: center;
+}
+
+#order-details h3 {
+    color: var(--accent-1);
+}
+
+.hidden-details {
+    display: none !important;
+}
+
 #business-description textarea {
     height: 75px;
     font-family: Thasadith;
@@ -681,7 +713,6 @@ form label.top input:required:valid {
 textarea placeholder {
     font-family: Thasadith;
 }
-
 
 .centered-container {
     margin: 0 auto;

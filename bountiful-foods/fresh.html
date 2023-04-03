@@ -58,37 +58,55 @@
         </section>
         <section id="form-table">
             <div>
-                <form action="thanks.html">
-                    <scetion>
+                <form name="drink-form" onsubmit="displayInputDetails(this)">
+                    <section>
                         <p id="customize">Customize Your Fruit Drink</p>
-                    </scetion>
+                    </section>
                     <fieldset>
-                        <label class="top">First Name*<input type="text" name="fname" required></label>
-                        <label class="top">Email*<input type="email" name="email" placeholder="johndoe@gmail.com"
-                                required></label>
-                        <label class="top">Phone Number*<input type="tel" name="phone" required
+                        <label class="top">First Name*<input type="text" name="fname" id="formName" required></label>
+                        <label class="top">Email*<input type="email" name="email" id="formEmail"
+                                placeholder="johndoe@gmail.com" required></label>
+                        <label class="top">Phone Number*<input type="tel" name="phone" id="formPhone" required
                                 placeholder="6784441234"></label>
                         <label class="top">Fruit Options [CHOOSE 3]
-                            <select name="fruit-options1" id="fruit-choices1">
-                                <option value="">Select Fruit 1...</option>
-                               
+                            <select name="fruit-options1" id="fruit-choices1" required>
+
+
                             </select>
-                            <select name="fruit-options2" id="fruit-choices2">
-                    
-                               
+                            <select name="fruit-options2" id="fruit-choices2" required>
+
+
                             </select>
-                            <select name="fruit-options3" id="fruit-choices3">
-                                
-                                
+                            <select name="fruit-options3" id="fruit-choices3" required>
+
+
                             </select>
                         </label>
                         <label id="business-description" class="top">Special Instructions (Optional)</label>
-                        <textarea placeholder="Write special instructions for your customized fruit juice" rows="8"
+                        <textarea id="formInstructions"
+                            placeholder="Write special instructions for your customized fruit juice drink" rows="8"
                             cols="45"></textarea>
-                        <input id="hiddenDate" type="hidden" name="date">
                     </fieldset>
                     <input id="submit" type="submit" value="Order Fruit Drink" class="submitBtn">
                 </form>
+            </div>
+        </section>
+        <section id="order-details-box" class="hidden-details">
+            <div id="order-details">
+                <h3>Drink Order Details:</h3>
+                <p>Name: <span id="name"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <p>Phone: <span id="phone"></span></p>
+                <p>Fruit Selection 1: <span id="fruit1"></span></p>
+                <p>Fruit Selection 2: <span id="fruit2"></span></p>
+                <p>Fruit Selection 3: <span id="fruit3"></span></p>
+                <p>Special Instructions: <span id="instructions"></span></p>
+                <p>Order Date: <span id="order-date"></span></p>
+                <p>Carbohydrates: <span id="carbs"></span></p>
+                <p>Protein: <span id="protein"></span></p>
+                <p>Fat: <span id="fat"></span></p>
+                <p>Sugar: <span id="sugar"></span></p>
+                <p>Calories: <span id="calories"></span></p>
             </div>
         </section>
     </main>
